@@ -8,9 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Upshift Swap Shop Case Study | Pearl Bharti</title>
     <meta content="Upshift Swap Shop" property="og:title" />
-    <meta content="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/6101293c9366c359d7e3f8b9_Screenshot%202021-07-28%20at%205.51.51%20PM.png" property="og:image" />
-    <meta content="Upshift Swap Shop" property="twitter:title" />
-    <meta content="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/6101293c9366c359d7e3f8b9_Screenshot%202021-07-28%20at%205.51.51%20PM.png" property="twitter:image" />
     <link href="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/css/rachel-how.webflow.113d3075a.min.css" rel="stylesheet" type="text/css" />
     <style>
         @media (min-width:992px) {
@@ -19,6 +16,11 @@
             }
         }
     </style>
+    <style>
+        .center-text {
+          text-align: center;
+        }
+      </style>
 
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="preconnect">
     <!-- Include the WebFont Loader script -->
@@ -101,7 +103,7 @@
     </header>
   
     <div class="section pt-120 pb-0">
-        <div class="container"><img src="images\portfolio2.jpg" loading="lazy" "
+        <div class="container"><img src="images/fm1.png" loading="lazy" "
                 sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" alt="Upshift Swap Shop" class="cs-cover-image" /></div>
         <div class="mw-650 w-container">
             <h1> Revolutionizing Retail: Redesigning Thrift Store's UX for Sustainable Impact</h1>
@@ -130,6 +132,7 @@
             </div>
         </div>
     </div>
+
     <div data-w-id="603cee30-d84e-95e7-9034-f12671e2bd0e" class="section pt-0">
         <div data-w-id="3d5bdc31-b4a6-ba0b-3fae-b433c14831e7" class="cs-sticky-sidebar">
             <a href="#introduction" class="cs-side-nav w-inline-block">
@@ -138,33 +141,40 @@
             <a href="#problem" class="cs-side-nav w-inline-block">
                 <div>Problem</div>
             </a>
-            <a href="#goal" class="cs-side-nav w-inline-block">
-                <div>Goal</div>
-            </a>
-            <a href="#early-ideation" class="cs-side-nav w-inline-block">
+            <a href="#impact" class="cs-side-nav w-inline-block">
                 <div>Brainstorming</div>
             </a>
-            <a href="#testing" class="cs-side-nav w-inline-block">
+            <a href="#storyboard" class="cs-side-nav w-inline-block">
                 <div>Story Board</div>
             </a>
-            <a href="#final-designs" class="cs-side-nav w-inline-block">
+            <a href="#taskflows" class="cs-side-nav w-inline-block">
                 <div>Task Flow</div>
             </a>
-            <a href="#development" class="cs-side-nav w-inline-block">
+            <a href="#screendsgn" class="cs-side-nav w-inline-block">
                 <div>Screen Design</div>
             </a>
-            <a href="#future-steps" class="cs-side-nav w-inline-block">
+            <a href="#sysdsgn" class="cs-side-nav w-inline-block">
                 <div>System Design</div>
             </a>
-            <a href="#future-steps" class="cs-side-nav w-inline-block">
+            <a href="#paper" class="cs-side-nav w-inline-block">
+                <div>Paper Protoype</div>
+            </a>
+            <a href="#wireframe" class="cs-side-nav w-inline-block">
                 <div>Wireframes</div>
             </a>
-            <a href="#future-steps" class="cs-side-nav w-inline-block">
+            <a href="#eval" class="cs-side-nav w-inline-block">
+                <div>Evaluation</div>
+            </a>
+            <a href="#final" class="cs-side-nav w-inline-block">
+                <div>Final Mockup</div>
+            </a>
+            <a href="#learning" class="cs-side-nav w-inline-block">
                 <div>Learnings</div>
             </a>
-            <a href="#future-steps" class="cs-side-nav w-inline-block">
+            <a href="#future" class="cs-side-nav w-inline-block">
                 <div>Future</div>
             </a>
+            
         </div>
         <div class="container">
             <div id="introduction" class="cs-offset-section">
@@ -178,7 +188,7 @@
                     <br>
                     <h2>My Role</h2>
                     <div class="styled-rich-text w-richtext">
-                        <p>I have been the UX designer for this project. Starting at my preliminary research, brainstorming and all the design steps,with wonderful guidance from my Professor <a href="https://www.linkedin.com/in/adamrule/" target="_blank">Adam Rule</a>, I have been able to enhance the User Experience of the website. </p>
+                        <p>I have been the UX designer for this project. Starting at my preliminary research, brainstorming and all the design steps. With wonderful guidance from my Professor <a href="https://www.linkedin.com/in/adamrule/" target="_blank">Adam Rule</a>, I have been able to enhance the User Experience of the website. </p>
                     </div>
                 </div>
             </div>
@@ -186,255 +196,205 @@
                 <div class="mw-650">
                     <h2>Problem</h2>
                     <div class="styled-rich-text w-richtext">
-                        <p>Since 2013, Upshift's web user experience has not been changed. The current website just doesn't capture the vibrant energy of the store. It's lacking in fun, color, and that unique vibe Upshift brings. With its outdated landing page and minimal info, there's zero chance for online shopping. As a result, the store hasn't been getting the attention it deserves. That's why I made it my mission to revamp the site, focusing on improving the user experience and adding exciting new features.</p>
+                        <p>Since 2013, Upshift's web user experience has not been changed. </p>
+                            <ul>
+                                <li><strong> Landing Page:</strong> The outdated landing page offers minimal information, hindering online shopping.
+                                <li><strong>Impact on Store Attention:</strong> The lackluster website results in the store not receiving deserved attention.</li> 
+                                <li><strong>Revamp Mission:</strong> To address these issues, there's a focused effort to revamp the site, enhancing user experience and adding exciting features.</li>
+                            </ul>    
+                            
                     </div>
                 </div>
                 <div class="mw-650">
                     <div class="styled-rich-text w-richtext">
-                        <p>‍</p>
                         <p>‍</p>
                         <h3>Defining the problem<br/></h3>
                     </div>
                 </div>
                 <div class="mw-650"><img src="images\hmw.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 88vw, 650px" alt="problem statement" class="cs-image" /></div>
             </div>
-            <div id="goal" class="cs-offset-section">
-                <div class="mw-650">
-                    <h2>Goals</h2>
-                    <div class="caption">BUSINESS GOALS</div>
-                    <div class="styled-rich-text w-richtext">
-                        <h3>Strengthen the value proposition of core products</h3>
-                        <p>With new products introduced, we want to highlight our core product offerings that go beyond Deals. We aim to allow a habit-building &amp; fast payment experience for our consumers, while strengthening product discovery on the
-                            app.</p>
-                        <p>‍</p>
-                        <h3>Operational efficiency</h3>
-                        <p>To optimize internal operations, we will build scalable design components, which will work across FavePay, Deals &amp; eCards.<br/></p>
-                    </div>
-                    <div class="divider"></div>
-                    <div class="caption">USER GOALS</div>
-                    <div class="styled-rich-text w-richtext">
-                        <h3>Increase content relevancy</h3>
-                        <p>To work with the data science and engineering team to build a recommendation engine that automatically shows consumers the most relevant content based on their past purchase behaviour, interests and most favourited brands.<br/></p>
-                        <p>‍<br/></p>
-                        <h3>A delightful, consistent consumer experience</h3>
-                        <p>To ensure a proper design system is in place to reduce technical debt, and give our consumers a better, consistent experience.<br/></p>
-                    </div>
-                </div>
-            </div>
             <div id="impact" class="cs-offset-section">
                 <div class="mw-650">
-                    <h2>Impact</h2>
+                    <h2>Brainstorming</h2>
                     <div class="styled-rich-text w-richtext">
-                        <p>Hooray, we launched the landing page on April 7, 2021! For confidentiality reasons I have omitted the actual values for these metrics.<br/></p>
+                        <p>Upon researching and boiling down to the problems and finally the "How Might We..?", I brainstormed multiple potential solutions.<br/></p>
                     </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026dc9645f190658c4b7_fave-lp-impact-02.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026dc9645f190658c4b7_fave-lp-impact-02-p-500.png 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026dc9645f190658c4b7_fave-lp-impact-02.png 1024w"
-                    alt="600 percent increase in app downloads" class="cs-image" />
-                <div class="mw-650">
-                    <div class="w-richtext">
-                        <p>The moment it goes live, we immediately saw a 50% increase in downloads of our app from our landing page, compared to the old website. After 14 days of going live, we saw a 600% increase in app downloads.</p>
-                        <p>‍</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026ce05c93849a1e8995_fave-lp-impact-01.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026ce05c93849a1e8995_fave-lp-impact-01-p-500.png 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026ce05c93849a1e8995_fave-lp-impact-01.png 1024w"
-                    alt="150000 visits in 60 days" class="cs-image" />
+                </div><img src="images/bs.png" loading="lazy" class="cs-image" />
+                
+                <br>
                 <div class="mw-650">
                     <div class="styled-rich-text w-richtext">
-                        <p>Visitors are mainly from Singapore, Malaysia and Indonesia.</p>
-                        <p>‍<br/></p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026c26243b1d5987e8a2_fave-lp-impact-03.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026c26243b1d5987e8a2_fave-lp-impact-03-p-500.png 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026c26243b1d5987e8a2_fave-lp-impact-03.png 1024w"
-                    alt="50% web users converted to app" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>The share of transactions via the website decreased by 50% (since users moved to the app), while our overall transactions remained stable.</p>
-                        <p>‍<br/></p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026cb74696277b8a8bff_fave-lp-impact-04.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026cb74696277b8a8bff_fave-lp-impact-04-p-500.png 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/64f6026cb74696277b8a8bff_fave-lp-impact-04.png 1024w"
-                    alt="less than 35% bounce rate" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>Bounce rate is defined as the percentage of visitors that leave a webpage without taking an action (such as clicking on a button). The healthy bounce rate on our landing page is a sign that the content is relevant, engaging or
-                            clear to visitors, thus 65% of our users interacted with the page before leaving.</p>
-                        <p>‍</p>
-                        <p>Here&#x27;s the device usage of the web traffic.<br/></p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d74a0533840be0ef7db32a_Frame%20693.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d74a0533840be0ef7db32a_Frame%20693-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d74a0533840be0ef7db32a_Frame%20693-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d74a0533840be0ef7db32a_Frame%20693.webp 1024w"
-                    alt="" class="cs-image" /></div>
-            <div id="early-ideation" class="cs-offset-section">
-                <div class="mw-650">
-                    <h2>Early Ideation</h2>
-                    <div class="styled-rich-text w-richtext">
-                        <p>We kicked off a design sprint together with the lead Product Manager.</p>
-                        <p>Using Miro as a remote collaboration tool, we gathered inspiration of how other forward-thinking brands craft their landing page, and shared what we like about them.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b29004fb83200a77fd41_Frame%20408.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b29004fb83200a77fd41_Frame%20408-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b29004fb83200a77fd41_Frame%20408-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b29004fb83200a77fd41_Frame%20408-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b29004fb83200a77fd41_Frame%20408.webp 1200w"
-                    alt="" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>Then, we did a quick solution sketching together to end the sprint. This mini design sprint was condensed into 2 hours as our schedule were packed.</p>
-                        <p>On a separate session, we established 4 design principles for the landing page to make sure we design based on these principles. These principles are centered around our consumers—How consumers portray us as a brand.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b0ab18778f082caffc6e_Design%20Principles.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b0ab18778f082caffc6e_Design%20Principles-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b0ab18778f082caffc6e_Design%20Principles-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b0ab18778f082caffc6e_Design%20Principles-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b0ab18778f082caffc6e_Design%20Principles.webp 1600w"
-                    alt="" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>We started sketching some crazy ideas on our minds. Our focus at this stage is to diverge first, converge later.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c5886a4ad6a2e2b412a_Frame%20664.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c5886a4ad6a2e2b412a_Frame%20664-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c5886a4ad6a2e2b412a_Frame%20664-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c5886a4ad6a2e2b412a_Frame%20664-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c5886a4ad6a2e2b412a_Frame%20664.webp 1200w"
-                    alt="" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>This is how the early wireframes looked like. On the left, we mapped out the purpose of each section, aligning with our design principles. The primary goal is to convince users to download the app.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c575efaf17a00fe71d4_Frame%20675.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c575efaf17a00fe71d4_Frame%20675-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c575efaf17a00fe71d4_Frame%20675-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c575efaf17a00fe71d4_Frame%20675-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d02c575efaf17a00fe71d4_Frame%20675.webp 1200w"
-                    alt="" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>We then turn these early ideas into high fidelity designs. We experimented with different colors, shapes, layouts. But it felt all over the place, so we continued to refine these designs.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60cf5e3d771e4829186693e9_Frame%20665.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60cf5e3d771e4829186693e9_Frame%20665-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60cf5e3d771e4829186693e9_Frame%20665-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60cf5e3d771e4829186693e9_Frame%20665.webp 1200w"
-                    alt="" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>Here&#x27;s the outcome after several iterations, though this is not the final design. We needed a design that is solid enough to kickstart the user test, so we can learn what people <em>really</em> think about the landing page.
-                            We fail fast, in order to learn faster.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b28dd563363fa6745c3a_Frame%20666.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b28dd563363fa6745c3a_Frame%20666-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b28dd563363fa6745c3a_Frame%20666-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b28dd563363fa6745c3a_Frame%20666-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b28dd563363fa6745c3a_Frame%20666.webp 1600w"
-                    alt="" class="cs-image" /></div>
-            <div id="testing" class="cs-offset-section">
-                <div class="mw-650">
-                    <h2>User Testing</h2>
-                    <div class="styled-rich-text w-richtext">
-                        <p>I conducted user tests with 5 people outside Fave using Maze&#x27;s Survey tool.</p>
-                        <p>To avoid bias, I changed the brand to &#x27;Plus&#x27;, swapped the brand color to blue, and tweaked the copy so responses are more accurate.</p>
-                        <p>This is what the survey looks like. It&#x27;s easily shareable via a link.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60cf614c195f0e3b547486ac_MazeLandingPage.gif" loading="lazy" alt="" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>I consolidated the test results on Notion. A heatmap is also generated to help us understand how people interact with the landing page.</p>
-                        <p>Here are the results!</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b812c31f1b002552e9b1_Frame%20678.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b812c31f1b002552e9b1_Frame%20678-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b812c31f1b002552e9b1_Frame%20678-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b812c31f1b002552e9b1_Frame%20678-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d0b812c31f1b002552e9b1_Frame%20678.webp 1600w"
-                    alt="" class="cs-image" /><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d333892c79b01e7cef3a42_heatmap.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"
-                    srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d333892c79b01e7cef3a42_heatmap-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d333892c79b01e7cef3a42_heatmap-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d333892c79b01e7cef3a42_heatmap-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d333892c79b01e7cef3a42_heatmap.webp 1600w"
-                    alt="" class="cs-image" />
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <p>From the heatmap, we found that 20% of users scroll to the bottom. We were worried people won&#x27;t notice some clickable elements, but the heatmap results proved otherwise.</p>
-                        <p>By asking specific questions in the survey without revealing that we are Fave, we found that people were able to understand what the product is about.</p>
-                        <p>In Malaysia, there are many e-wallets so people tend to consider Fave as one too, but we aren&#x27;t. So in this landing page, we tell people that we don&#x27;t store users&#x27; money. We also educate users to stack their rewards,
-                            leverage on Fave&#x27;s full potential and unlock more savings.</p>
-                        <p>And then, back to the artboard. I continued to iterate the designs to strengthen our value propositions and ensure all messaging are clear as crystal, while driving app downloads.</p>
+                        <p>After exploring a variety of brainstormed ideas, such as <strong>gamification</strong>, <strong>alerts</strong> and <strong>gifting hampers</strong> , I honed in on three themes that lay closer to the <strong> NN group's Desirability, Feasibility and Viability theory</strong>.</p>
+                        <ul>
+                            <li><strong>Gamification of item swapping:</strong>To increase customer loyalty by giving points that they can use in store or have different badges for each level they reach and special surprise on achieving it.</li>
+                            <li><strong>Having gift hampers at low costs:</strong> To give customers an occasion to thrift clothes for, hence giving out a message for sustainability.</li>
+                            <li><strong>Alerting customers about new collection:</strong> To excite them and keep them in loop with the store in real time hence increasing a sense of personalization.</li>
+                          </ul>
                     </div>
                 </div>
             </div>
-            <div id="final-designs" class="cs-offset-section">
+            <div id="storyboard" class="cs-offset-section">
                 <div class="mw-650">
-                    <h2>Final Designs</h2>
+                    <h2>Story Board</h2>
                     <div class="styled-rich-text w-richtext">
-                        <h3>Before and after</h3>
-                        <p>Before the redesign, there was lack of focus on what Fave offers. The website was cluttered. The design language was inconsistent with the Fave app. It does not do justice to Fave&#x27;s unique value proposition.</p>
-                        <p>Here&#x27;s a detailed walkthrough of what I improved post-testing.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d307f66f6bda9b3d5dc623_FaveSEA_01.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d307f66f6bda9b3d5dc623_FaveSEA_01-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d307f66f6bda9b3d5dc623_FaveSEA_01-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d307f66f6bda9b3d5dc623_FaveSEA_01-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d307f66f6bda9b3d5dc623_FaveSEA_01-p-1600.webp 1600w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d307f66f6bda9b3d5dc623_FaveSEA_01-p-2000.webp 2000w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d307f66f6bda9b3d5dc623_FaveSEA_01.webp 2400w"
-                    alt="" class="cs-image" />
-                <div class="divider"></div>
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <h3>Strong social proof</h3>
-                        <blockquote>You never get a second chance to make a good first impression.</blockquote>
-                        <p>Social proof can be seen throughout the landing page. We&#x27;ve showcase familiar brands that visitors instantly recognize, real metrics of total savings from Fave&#x27;s consumers, real app reviews and real testimonials.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3304d798160f5e90872b5_social%20proof.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3304d798160f5e90872b5_social%20proof-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3304d798160f5e90872b5_social%20proof-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3304d798160f5e90872b5_social%20proof-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3304d798160f5e90872b5_social%20proof.webp 2000w"
-                    alt="" class="cs-image" />
-                <div class="divider"></div>
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <h3>Relevant hero image</h3>
-                        <p>We placed different hero images in the mockups so the team can visualize how it looks like. We voted on the image that best reflects a smart, savvy Fave user, who&#x27;s excited to save with Fave.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d331bcc694f0ee8cadb0c5_hero%20image.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d331bcc694f0ee8cadb0c5_hero%20image-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d331bcc694f0ee8cadb0c5_hero%20image-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d331bcc694f0ee8cadb0c5_hero%20image-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d331bcc694f0ee8cadb0c5_hero%20image.webp 1600w"
-                    alt="" class="cs-image" />
-                <div class="divider"></div>
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <h3>A little gift for our visitors</h3>
-                        <p>To strengthen the funnel of the landing page, we&#x27;ve added a hanging carrot (a promo code) to entice visitors to download the app. It drives delight and a sense of urgency.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d342576cee562eef138c2c_offer%20flow.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d342576cee562eef138c2c_offer%20flow-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d342576cee562eef138c2c_offer%20flow-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d342576cee562eef138c2c_offer%20flow.webp 2007w"
-                    alt="" class="cs-image" />
-                <div class="divider"></div>
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <h3>Clear value proposition</h3>
-                        <p>We centered our messaging around our target audience and what they care about—Savings and Convenience. How? Simply spend, stack and save. This separates us amongst our competitors.<br/></p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d34257e3a3b60bad940ddb_clear%20messaging.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d34257e3a3b60bad940ddb_clear%20messaging-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d34257e3a3b60bad940ddb_clear%20messaging-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d34257e3a3b60bad940ddb_clear%20messaging-p-1080.webp 1080w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d34257e3a3b60bad940ddb_clear%20messaging.webp 2000w"
-                    alt="" class="cs-image" />
-                <div class="divider"></div>
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <h3>Friendly, relevant copy</h3>
-                        <blockquote>People will forget what you said, but people will never forget how you made them feel. — Maya Angelou</blockquote>
-                        <p>Though the experience is digital, we want our visitors to feel like we are engaging in a human conversation. The copy is designed to be friendly and positive.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3425ad3fed50cee1e0ac2_copywriting-2.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3425ad3fed50cee1e0ac2_copywriting-2-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3425ad3fed50cee1e0ac2_copywriting-2-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d3425ad3fed50cee1e0ac2_copywriting-2.webp 2000w"
-                    alt="" class="cs-image" />
-                <div class="divider"></div>
-                <div class="mw-650">
-                    <div class="styled-rich-text w-richtext">
-                        <h3>Brand new About page</h3>
-                        <p>Finally, an About page... after 4 years! Investors, merchants, customers can know more about Fave now. This page is designed to look more serious compared to the homepage as we are catering for different use cases.</p>
-                    </div>
-                </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d33e2a19390ff81c0de370_about%20page.webp" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d33e2a19390ff81c0de370_about%20page-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d33e2a19390ff81c0de370_about%20page-p-800.webp 800w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d33e2a19390ff81c0de370_about%20page.webp 2400w"
-                    alt="" class="cs-image" />
-                <div class="section-heading-center"><a href="https://discover.myfave.com" target="_blank" class="button mt-16 w-button">Check out the live site 🎉</a></div>
-                <div class="divider"></div>
-            </div>
-            <div id="development" class="cs-offset-section">
-                <div class="mw-650">
-                    <h2>Development</h2>
-                    <div class="styled-rich-text w-richtext">
-                        <p>I built the responsive landing page on Webflow.</p>
-                        <p>At that time, the acquisition of Fave by PineLabs was about to be announced and we were anticipating a big push in public attention to Fave. Hence we speed up building and launching this landing page, which was initially planned
-                            for a couple of months later.</p>
-                        <p>‍</p>
-                        <h3>Handling visitors from different countries</h3>
-                        <p>To make sure visitor from different countries see relevant content, our web development team helped build a logic that redirects them to their respective countries&#x27; landing page.</p>
-                        <p>‍</p>
-                        <h3>Handling visitors who prefer to browse deals on the site<br/></h3>
-                        <p>Our web development team also helped build a logic whereby if a visitor arrives at &#x27;myfave.com&#x27;, they will be redirected to &#x27;discover.myfave.com&#x27;. Then, if they click on &#x27;Browse deals&#x27; anywhere on
-                            the landing page, they will be able to browse deals as usual. They still get to enjoy the same, familiar deal shopping experience. The next time they go to &#x27;myfave.com&#x27;, they will no longer see &#x27;discover.myfave.com&#x27;
-                            since we already know they prefer to browse deals on the web.</p>
+                        <p>To visualize and <strong>capture the emotions</strong>  of a way in which the solutions would bring about any change to the user, I created a storyboard. </p>
+                        <p>I made sure that the story depicted had a  clear <strong>beginning</strong> , <strong>transition</strong>, and a <strong>climax</strong></p>
                     </div>
                 </div>
+                <img src="images/storyb.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw" alt="" class="cs-image" />
+                
             </div>
-            <div id="future-steps" class="cs-offset-section">
+            <div id="taskflows" class="cs-offset-section">
                 <div class="mw-650">
-                    <h2>Future steps</h2>
+                    <h2>Task Flows</h2>
                     <div class="styled-rich-text w-richtext">
-                        <p>Here are our future plans for the landing page:</p>
-                        <p>‍</p>
-                        <h3>Continue to convert visitors to the app</h3>
-                        <p>After launching, we saw that our metrics still show a large number of people browsing <a href="http://myfave.com/" target="_blank">myfave.com</a> than <a href="http://myfave.com/deals" target="_blank">myfave.com/deals</a>. This
-                            is due to many of our visitors landing on Deals page via Google finding a direct offer. The share of digital transactions coming from the website is also not shrinking at the pace we expected.</p>
-                        <p>‍</p>
-                        <h3>To maintain and update the landing page</h3>
-                        <p>We will ensure information such as offered deals, promo codes are up to date.</p>
-                        <p>‍</p>
-                        <h3>To reduce features on the Deals website</h3>
-                        <p>We will further reduce the features on <a href="http://myfave.com/">myfave.com</a> to drive app downloads. For example, if a user wants to buy an eCard, they will need to download the Fave app to do so.</p>
+                        <p>With a very raw design idea in my mind, I proceeded mapping out task flows to give some physical form to my ideas. </p>
+                        <p>I mapped up <strong>5 task flow</strong> for starters.</p>
+                        <div class="caption">
+                            <a href="https://www.figma.com/file/WBHTJxsRX8CFGhx7d2i3su/Assignment-4?type=whiteboard&node-id=9%3A79&t=pqkildZElD2LZOZt-1" target="_blank"><p> <strong>Link to Task Flows</strong></u> </p></a>
+    
+                        </div>
                     </div>
-                    <div class="divider"></div>
+                    
+                </div><img src="images/tf1.png" loading="lazy" alt="" class="cs-image" />
+                <img src="images/tf2.png" loading="lazy" alt="" class="cs-image" />
+                <img src="images/tf3.png" loading="lazy" alt="" class="cs-image" />
+                <img src="images/tf4.png" loading="lazy" alt="" class="cs-image" />
+                
+               
+            </div>
+            <div id="screendsgn" class="cs-offset-section">
+                <div class="mw-650">
+                    <h2>Screen Design</h2>
                     <div class="styled-rich-text w-richtext">
-                        <p>I really enjoyed the process from ideation, design, testing to development of this project. Couldn&#x27;t have done so without the amazing team at Fave!<br/><br/>Thank you for reading through! Hope you enjoyed learning about my
-                            design and thought process. :)</p>
-                        <p>‍</p>
-                        <p>If you&#x27;d like to see more, you can check out my case study of <a href="/design/fave-app-redesign">Fave&#x27;s App Redesign</a>.</p>
+                        <p>To bring about more completeness to my designs yet leaving scope for change and adjustments given the incipient stage, I roughly sketched screen designs, <strong>free-hand</strong> to <strong>draw focus to elements and not the spatial structure</strong>.</p>
+                    </div>
+                </div><img src="images/sd1.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                <img src="images/sd21.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                <img src="images/sd22.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                <img src="images/sd3.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                <div class="divider"></div>
+            </div>
+            <div id="sysdsgn" class="cs-offset-section">
+                <div class="mw-650">
+                    <h2>System Design</h2>
+                    <div class="styled-rich-text w-richtext">
+                       <p>The biggest concern after my preliminary research from the start was the<strong> absence of a relevant color swatch</strong>. After researching their contemporaries and refining my ideas. I came up with the following <strong>components</strong> </p>
+                        <div class="caption">
+                            <a href="https://www.figma.com/file/L0ucqyQdii1y4aPf5560WK/A6?type=design&node-id=0%3A1&mode=design&t=iYLzm0trLOjmUUX1-1" target="_blank"> <u>Link to the Design System</u> </a>
+                        </div>
+                    </div>
+                </div><img src="images/sysd1.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                    
+                    
+            </div>
+            <div id="paper" class="cs-offset-section">
+                <div class="mw-650">
+                    <h2>Paper Prototype</h2>
+                    <div class="styled-rich-text w-richtext">
+                        <p> I conducted my paper prototyping with the students that I tutor, namely, Rachel Ren, Blake and Valentine Schneider. I gave each of them  a chance to separately perform each task without looking at others perform it to get independent insights. </p>
+                        <div class="caption">
+                            <a href="https://www.figma.com/file/L0ucqyQdii1y4aPf5560WK/A6?type=design&node-id=0%3A1&mode=design&t=iYLzm0trLOjmUUX1-1" target="_blank"> <u>Link to the Paper Protypes</u> </a>
+                        </div>
                     </div>
                 </div>
+                
+                <img src="images/pp1.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                <img src="images/pp2.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />   
+                <br> 
+                <div class="mw-650">
+                    <div class="styled-rich-text w-richtext">
+                        <p>The insight are as below -</p>
+                        <ul>
+                            <li>Rachel initially missed the styling tips feature while browsing the website, indicating a need for better visibility and attention-grabbing design.</li>
+                            <li>Blake encountered confusion when trying to locate loyalty points, exacerbated by the sidebar label "Sustainability points" instead of "Loyalty Points," highlighting the importance of clear labeling and navigation.</li>
+                            <li>Valentine's experience was relatively smooth, but they suggested moving the profile section to a more prominent location for easier access.</li>
+                          </ul>
+                    </div>
+                </div>       
             </div>
-        </div>
+            <div id="wireframe" class="cs-offset-section">
+                <div class="mw-650">
+                    <h2>Wireframes</h2>
+                    <div class="styled-rich-text w-richtext">
+                        <p> With relevant Insights I proceeded to create my Wireframes and appropriately annotated every elements for future reference to back my design decisions up.</p>
+                        <p>This included the basic spatial decisons and final screen structure.</p>
+                        <div class="caption">
+                            <a href="https://www.figma.com/file/L0ucqyQdii1y4aPf5560WK/A6?type=design&node-id=0%3A1&mode=design&t=iYLzm0trLOjmUUX1-1" target="_blank"> <u>Link to the Wireframes</u> </a>
+                        </div>
+                    </div>
+                </div><img src="images/wf1.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                <img src="images/wf2.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                <img src="images/wf3.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />           
+            </div>
+            <div id="eval" class="cs-offset-section">
+                <div class="mw-650">
+                    <h2>Heuristic Evaluation</h2>
+                    <div class="styled-rich-text w-richtext">
+                        <p> Following the completion of the static mockups, I undertook a thorough examination of the entire design, cross-referencing it with the 10 heuristics to maintain consistency in design principles. I pinpointed various issues and recorded them in the table provided, along with corresponding proposed remedies.</p>
+                        <div class="caption">
+                            <a href="https://www.figma.com/file/Vba7DMmN8clDFzZ9zmuZhg/A10?type=whiteboard&node-id=3%3A110&t=hldSvsMa4HWBanLV-1" target="_blank"> <u>Link to the in-depth evaluation</u> </a>
+                        </div>
+                    </div>
+                </div><img src="images/he.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />
+                
+                <div class = "center-text">
+                    <div class="mw-650">
+                        <div class="caption">
+                            <p><strong>A snippet of few of my evaluations</strong></p>
+                        </div>
+                    </div>  
+                </div>        
+            </div>
+            <div id="final" class="cs-offset-section">
+                <div class="mw-650">
+                    <h2>Final Mockups</h2>
+                    <div class="styled-rich-text w-richtext">
+                        <p> The final mockups are as below.</p>
+                        <div class="caption">
+                            <a href="https://www.figma.com/file/XK6ozOfuQzsuocaBo8klYL/Final-Mockups?type=design&node-id=0%3A1&mode=design&t=HZCwUjmIrkhnGwFa-1" target="_blank"> <u>Final Mockups</u> </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/fm1.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />     
+                <img src="images/fm2.png" loading="lazy" sizes="(max-width: 479px) 90vw, (max-width: 767px) 93vw, (max-width: 991px) 92vw, 78vw"alt="" class="cs-image" />   
+                <div class = "center-text">
+                    <div class="mw-650">
+                        <div class="caption">
+                            <p><strong>A few screens from my final prototype</strong></p>
+                        </div>
+                    </div>  
+                </div>    
+            </div>
+
+            <div id="Learning class="cs-offset-section">
+                <div class="mw-650">
+                    <h2>Learnings</h2>
+                    <div class="styled-rich-text w-richtext">
+                        <ul>
+                            <li><strong>Take it one phase at a time</strong><br>
+                                I learned to break down complicated designs into small, manageable chunks. This eases development and handles discrepancies as I go along.
+                            </li>
+                            <li><strong>Appreciate constructive feedback</strong><br>
+                                I learned how to observe and learn from past flaws, thanks to all the feedbacks. This helped me progress iteratively.
+                            </li>
+                            <li>
+                                <strong>Having a solid problem statement</strong><br>
+                                I learned how crucial an effective problem statement is just to create value and not wander off in the process of designing. After 3-4 weeks of drafting my initial problem statement was I able to stike my final one.
+                            </li>
+
+                        </ul>
+                    </div>
+                          
+            </div>
+            <div id="future"cs-offset-section">
+                <div class="mw-650">
+                    <h2>Future</h2>
+                    <div class="styled-rich-text w-richtext">
+                        <p>In future, I would like to incoporate more features to increase the aspect of social interaction for users and to promote sustainability by gamification.</p>
+                    </div>      
+            </div>
+     </div>
     </div>
     <div class="section">
         <div class="container">
@@ -442,22 +402,22 @@
                 <div class="section-heading">More to explore</div>
             </div>
             <div class="w-layout-grid grid-services">
-                <a href="/design" class="card-expertise-light design w-inline-block">
+                <a href="https://pearlbharti05.github.io/spotify.html" class="card-expertise-light design w-inline-block">
                     <div class="service-text-wrapper">
-                        <div class="caption all-caps">UI/UX DESIGN</div>
-                        <h3 class="heading-m">I design clean experiences that your users will love.</h3>
+                        <div class="caption all-caps">Ux research case study</div>
+                        <h3 class="heading-m">Orchestrating Spotify’s Future Tune
+                            Navigating from Insights to Brief</h3>
                         <div class="work-textlink-copy">
                             <div class="text-link">See my work</div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60ca1816e0cff7af54bdd831_arrow-right-circle.svg" loading="lazy" alt="Arrow right" /></div>
-                    </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d1d2c28f657c1330eacf18_phoneTablet.webp" loading="lazy" sizes="(max-width: 479px) 62vw, (max-width: 767px) 58vw, (max-width: 991px) 67vw, 54vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d1d2c28f657c1330eacf18_phoneTablet-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d1d2c28f657c1330eacf18_phoneTablet.webp 768w"
-                        alt="" class="work-featureimage design" /></a>
-                <a href="/webflow" class="card-expertise-light webflow w-inline-block">
+                    </div><img src="images/newspot.png" loading="lazy" sizes="(max-width: 479px) 62vw, (max-width: 767px) 58vw, (max-width: 991px) 67vw, 54vw" alt="" class="work-featureimage design" /></a>
+                <a href="https://medium.com/@pbharti_59193" class="card-expertise-light webflow w-inline-block">
                     <div class="service-text-wrapper">
-                        <div class="caption all-caps">WEBFLOW / FRAMER</div>
-                        <h3 class="heading-m">I build high quality websites at warp speed.</h3>
+                        <div class="caption all-caps">MY BLOGS</div>
+                        <h3 class="heading-m">See my journey as a UX Designer unfold through my blogs</h3>
                         <div class="work-textlink-copy">
-                            <div class="text-link">How I help</div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60ca1816e0cff7af54bdd831_arrow-right-circle.svg" loading="lazy" alt="Arrow right" /></div>
-                    </div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d1d2c3ad415774f138af15_iMac.webp" loading="lazy" sizes="(max-width: 479px) 78vw, (max-width: 767px) 66vw, (max-width: 991px) 84vw, 68vw" srcset="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d1d2c3ad415774f138af15_iMac-p-500.webp 500w, https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60d1d2c3ad415774f138af15_iMac.webp 820w"
-                        alt="" class="work-featureimage webflow" /></a>
+                            <div class="text-link">See my work</div><img src="https://assets-global.website-files.com/60c5f64abe141da7260da0b9/60ca1816e0cff7af54bdd831_arrow-right-circle.svg" loading="lazy" alt="Arrow right" /></div>
+                    </div><img src="images/Medium-logo-Photoroom.png-Photoroom.png" loading="lazy" sizes="(max-width: 479px) 78vw, (max-width: 767px) 66vw, (max-width: 991px) 84vw, 68vw" alt="" class="work-featureimage webflow" />
+                </a>
             </div>
         </div>
     </div>
